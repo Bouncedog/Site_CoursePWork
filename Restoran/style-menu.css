@@ -1,0 +1,133 @@
+body {
+    margin: 0; /* Убираем белые полосы по краям экрана */
+    font-family: "Open Sans", sans-serif; /* стиль текста */
+    height:2500px;
+    background-color: #a4c7e7; /* цвет за текстом */
+}
+
+.container {
+    margin: 0px 166px; /* сдвигаем логотип от края страницы */
+}
+
+
+.header { /* Фоновое изображение */
+    background-image: url(Photo/verh2.png); /* изображение фона */
+    height: 100vh; /* на весь экран */
+    background-repeat: no-repeat; /* Изображение не повторяет себя же, если не заполняет экран */
+    background-size: cover; /* размер по размеру экрана */
+}
+
+.color-strip {
+    background: linear-gradient(#ff6200ad , #301000ad, #100000ad); /* Цвет */
+    height: 196px; /* высота */
+}
+
+.header-line {
+    padding-top: 30px; /* отступ от верхней части cайта */
+    display: flex; /* Элементы в строку друг за другом */
+    align-items: center; /* выравниваем */
+    justify-content: space-around; /* свободное пространство делится поровну между элементами */
+}
+
+.navigation-item {
+    color: #fff; /* цвет */
+    text-decoration: none; /* убираем подчёркивание */
+    font-weight: 700; /* толщина текста */
+    font-size: 21px; /* размер текста */
+    margin-right: 25px; /* расстояние между элементами */
+
+    transition: color 0.3s linear; /* плавное изменение цвета текста */
+}
+
+.navigation-item:hover{ /* псевдокласс, котоырй срабатывает, когда пользователь наводит на элемент мышью */
+    color: #f53838; /* цвет при наведении на текст */
+}
+
+.phone {
+    border-left: 1px solid #FFF; /* граница слева с толщиной и цветом */
+    padding-left: 10px; /* отступ от изображения */
+    height: 80px; /* высота */
+}
+
+.num {
+    color: #fff; /* цвет */
+    text-decoration: none; /* убираем подчёркивание */
+    font-weight: 700; /* толщина текста */
+    font-size: 20px; /* размер текста */
+
+    transition: color 0.3s linear; /* плавное изменение цвета текста */
+}
+
+.num:hover { /* псевдокласс, котоырй срабатывает, когда пользователь наводит на элемент мышью */
+    color: #f53838; /* цвет при наведении на текст */
+}
+
+.phone-text {
+    color: #fff; /* цвет */
+    font-weight: 700; /* толщина текста */
+    font-size: 15px; /* размер текста */
+}
+
+.phone-holder {
+    display: flex; /* Элементы в строку друг за другом */
+    align-items: center; /* выравниваем */
+}
+
+.button {
+    background-color: #FF7400; /* цвет за текстом */
+    color: #fff; /* цвет */
+    text-decoration: none; /* убираем подчёркивание */
+    padding: 14px 18px; /* отступ сверху и снизу, справа и слева */
+    font-weight: 700; /* толщина текста */
+
+    transition: background-color 0.18s linear; /* плавное изменение цвета текста */
+}
+
+.button:hover { /* псевдокласс, котоырй срабатывает, когда пользователь наводит на элемент мышью */
+    background-color: #af801ac4; /* цвет при наведении на текст */
+}
+
+.go-to-menu {
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 110px;
+    border: 10px;
+    background: linear-gradient(#ff6200ad , #301000ad); /* Цвет */
+    padding-top:50px;
+}
+
+.button-menu {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none; /* убираем подчёркивание */
+    font-family: "Tinos", serif; /* стиль текста */
+    font-size: 21px; /* размер текста */
+    font-weight: 400; /* толщина текста */
+}
+
+.table {
+    margin: auto;
+}
+
+.table-down {
+    margin-top: 588px;
+}
+
+.color-table {
+    background: linear-gradient(45deg, #ff6200, #d37a4d, #ee763f); /* Цвет с наклоном в 45 градусов */
+    text-align: center;
+}
+
+.color-table-inside {
+    background: linear-gradient(45deg, #ff6200, #d37a4d, #ee763f); /* Цвет с наклоном в 45 градусов */
+    display: flex;
+    flex-direction: column;
+}
+
+.void {
+    background-color: #10000000;
+    border: none;
+}

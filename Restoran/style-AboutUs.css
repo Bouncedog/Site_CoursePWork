@@ -1,0 +1,111 @@
+body {
+    margin: 0; /* Убираем белые полосы по краям экрана */
+    font-family: "Open Sans", sans-serif; /* стиль текста */
+}
+
+.container {
+    margin: 0px 166px; /* сдвигаем логотип от края страницы */
+}
+
+
+.header { /* Фоновое изображение */
+    background-image: url(Photo/verh2.png); /* изображение фона */
+    height: 100vh; /* на весь экран */
+    background-repeat: no-repeat; /* Изображение не повторяет себя же, если не заполняет экран */
+    background-size: cover; /* размер по размеру экрана */
+}
+
+.color-strip {
+    background: linear-gradient(#ff6200ad , #301000ad, #100000ad); /* Цвет */
+    height: 196px; /* высота */
+}
+
+.header-line {
+    padding-top: 30px; /* отступ от верхней части cайта */
+    display: flex; /* Элементы в строку друг за другом */
+    align-items: center; /* выравниваем */
+    justify-content: space-around; /* свободное пространство делится поровну между элементами */
+}
+
+.navigation-item {
+    color: #fff; /* цвет */
+    text-decoration: none; /* убираем подчёркивание */
+    font-weight: 700; /* толщина текста */
+    font-size: 21px; /* размер текста */
+    margin-right: 25px; /* расстояние между элементами */
+
+    transition: color 0.3s linear; /* плавное изменение цвета текста */
+}
+
+.navigation-item:hover{ /* псевдокласс, котоырй срабатывает, когда пользователь наводит на элемент мышью */
+    color: #f53838; /* цвет при наведении на текст */
+}
+
+.phone {
+    border-left: 1px solid #FFF; /* граница слева с толщиной и цветом */
+    padding-left: 10px; /* отступ от изображения */
+    height: 80px; /* высота */
+}
+
+.num {
+    color: #fff; /* цвет */
+    text-decoration: none; /* убираем подчёркивание */
+    font-weight: 700; /* толщина текста */
+    font-size: 20px; /* размер текста */
+
+    transition: color 0.3s linear; /* плавное изменение цвета текста */
+}
+
+.num:hover { /* псевдокласс, котоырй срабатывает, когда пользователь наводит на элемент мышью */
+    color: #f53838; /* цвет при наведении на текст */
+}
+
+.phone-text {
+    color: #fff; /* цвет */
+    font-weight: 700; /* толщина текста */
+    font-size: 15px; /* размер текста */
+}
+
+.phone-holder {
+    display: flex; /* Элементы в строку друг за другом */
+    align-items: center; /* выравниваем */
+}
+
+.button {
+    background-color: #FF7400; /* цвет за текстом */
+    color: #fff; /* цвет */
+    text-decoration: none; /* убираем подчёркивание */
+    padding: 14px 18px; /* отступ сверху и снизу, справа и слева */
+    font-weight: 700; /* толщина текста */
+
+    transition: background-color 0.18s linear; /* плавное изменение цвета текста */
+}
+
+.button:hover { /* псевдокласс, котоырй срабатывает, когда пользователь наводит на элемент мышью */
+    background-color: #af801ac4; /* цвет при наведении на текст */
+}
+
+.us {
+    background: #3a3633a9; /* Цвет */
+    color: white;
+    font-family: "Tinos", serif; /* стиль текста */
+    font-size:30px; /* размер текста */
+    font-weight: 400; /* толщина текста */
+
+}
+
+.us span {
+    background: linear-gradient(90deg, #f598a8, #f6edb2);
+    background-clip: text; /* определяет, выходит ли фон элемента под его рамку, поле заполнения или поле содержимого */
+    -webkit-background-clip: text; /* Обрезаем фон по тексту */
+    -webkit-text-fill-color: transparent; /* Прозрачный текст */
+    padding-left: 6px; /* отступ */
+}
+
+.second-paragraph {
+    margin-top: 100px;
+}
+
+.third-paragraph {
+    margin-top: 100px;
+}
